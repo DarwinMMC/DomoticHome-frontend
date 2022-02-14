@@ -1,1 +1,5 @@
-<p>dashboard works!</p>
+<gridster [options]="options" class="h-screen bg-background">
+  <gridster-item [item]="item" *ngFor="let item of dashboard">
+    <!-- your content here -->
+  </gridster-item>
+</gridster>
